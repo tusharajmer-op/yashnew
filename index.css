@@ -37,7 +37,7 @@ p{
     width: 100vw;
 }
 .NavBar {
-    background-color: #51c3ca;
+    background-color: #1aa5bd;
     height: 3.5rem;
     display: flex;
     flex-direction: row;
@@ -116,7 +116,7 @@ p{
 }
 .Card{
     border-radius: 3% / 7%;
-    background-color: #51c3ca;
+    background-color: #1aa5bd;
     width: 60%;
     height: 50%;
     display: flex;
@@ -232,7 +232,7 @@ p{
     height: 100%;
 }
 #s3image{
-    background-color: #51c3ca;
+    background-color: #1aa5bd;
     display: flex;
     margin-top: 0%;
     justify-content: center;
@@ -313,13 +313,13 @@ p{
 }
 .child87{
     width: 87%;
-    background-color: #51c3ca;
+    background-color: #1aa5bd;
     height: 100%;
 }
 .child93
 {
     width: 93%;
-    background-color: #51c3ca;
+    background-color: #1aa5bd;
     height: 100%;
 }
 .screen4{
@@ -327,7 +327,7 @@ p{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #51c3ca;
+    background-color: #1aa5bd;
 }
 
 .s4Hero{
@@ -460,7 +460,7 @@ p{
     align-items: center;
 }
 .smallertext{
-    color: #51c3ca;
+    color: #1aa5bd;
     position: absolute;
     font-size: 1.5rem;
     font-weight: 300;
@@ -504,7 +504,7 @@ p{
     justify-content: flex-start;
     width: 100%;
     height: 40%;
-    background-color: #51c3ca;
+    background-color: #1aa5bd;
     padding: 8%;
     
 }
@@ -603,7 +603,7 @@ p{
     margin: 1% 0%
 }
 .screen8{
-    background-color: #51c3ca;
+    background-color: #1aa5bd;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
