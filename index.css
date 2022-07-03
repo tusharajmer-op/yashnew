@@ -268,7 +268,8 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 5%;
 }
 .pc{
     width: 100%;
