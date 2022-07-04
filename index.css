@@ -88,21 +88,23 @@ p{
 .HeroImages{
     display: flex;
     flex-direction: row;
-    margin: 2% 14% 0% 0% ;
+    margin: 1.5rem 14% 0% 0% ;
+    height: 100%;
+
     
 
 }
 #MobileImage{
     position: relative;
-    height: 14.6rem;
-    width: 9.6rem;
+    height: 28vh;
+    width: 8.6rem;
     
 }
 
 #Container1{
     margin: 2% 0% 0% 0%;
     width: 32rem;
-    height: 13.3rem;
+    height: 26.5vh;
     
     background-color: black;
     
@@ -118,12 +120,13 @@ p{
     border-radius: 3% / 7%;
     background-color: #1aa5bd;
     width: 60%;
-    height: 50%;
+    height: 22rem;
     display: flex;
     flex-direction: row;
     position: relative;
     box-shadow: 0px 50px 80px 0px rgb(3 0 53 / 10%);
     margin: 3% 0%;
+    overflow: hidden;
 }
 .image{
     position: relative;
@@ -134,6 +137,8 @@ p{
     position: absolute;
     width: 100%;
     height: 100%;
+
+    
 }
 .circleContainer{
     width: 80rem;
@@ -176,7 +181,8 @@ p{
 }
 .circleDetails{
     width: 100rem;
-    margin-top: 4%;
+    margin-top: 3%;
+    overflow: hidden;
     
 }
 .circleDetails h4{
@@ -184,8 +190,8 @@ p{
 }
 .circleDetails p{
     width: 90%;
-    margin: 5% 0%;
-    line-height: 160%;
+    margin: 4% 0%;
+    line-height: 1.5rem;
     overflow: hidden;
 }
 .S2content{
@@ -268,10 +274,15 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    margin-right: 5%;
-    padding-right: 5%;
+    padding: 4rem;
 }
 .pc{
+    width: 80%;
+    height: 100%;
+    
+}
+.pc img{
+    /* padding-left: 4rem; */
     width: 100%;
 }
 .graph{
@@ -405,6 +416,7 @@ p{
     width: 30%;
     height: 80%;
     background-color: gray;
+    
 }
 .contentscreen5{
     display: flex;
@@ -443,13 +455,15 @@ p{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color: #dbe3e9;
 }
 .headings{
     position: relative;
+    width: 50%;
 }
 .biggertext>h1 {
    
-    color: gray;
+    color: white;
     font-size: 5rem;
 
 }
@@ -460,37 +474,39 @@ p{
     align-items: center;
 }
 .smallertext{
-    color: #1aa5bd;
+    color: gray;
     position: absolute;
-    font-size: 1.5rem;
-    font-weight: 300;
-    
+    font-size: 1.8rem;
+    font-weight: 500;
+    height: 2rem;
+    overflow: hidden;
+    letter-spacing: 0.1em;
 
 }
 .profile{
-    width: 80%;
+    width: 60%;
     height: 70%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-
 }
 .cards6{
     
     position: relative;
+    width: 35%;
     height: 100%;
-    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     
+    
 }
 .images6{
     position: relative;
     width: 100%;
-    height: 60%;
+    height: 80%;
     overflow: hidden;
 }
 
@@ -504,21 +520,21 @@ p{
     justify-content: flex-start;
     width: 100%;
     height: 40%;
-    background-color: #1aa5bd;
+    background-color: white;
     padding: 8%;
     
 }
 
 .contents6 h4{
     font-size: 1rem;
-    color: white;
+    color: #1aa5bd;
     font-weight: 200;
 }
 .contents6 h6{
     font-size: 1.2rem;
     font-weight: 500;
 
-    color: white;
+    color: gray;
 }
 /* #gray{
     background-color: gray;
