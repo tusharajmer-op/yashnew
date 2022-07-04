@@ -661,6 +661,7 @@ p{
     display: flex;
     flex-direction: row;
     position: relative;
+    background-color: #1aa5bd;
 
 }
 .s9leftcontainer{
@@ -673,10 +674,10 @@ p{
 
 }
 .s9leftcontainer h1{
-    color: gray;
+    color: white;
 }
 .s9leftcontainer p{
-    color: gray;
+    color: white;
     width: 80%;
     line-height: 2rem;
 }
@@ -698,7 +699,7 @@ p{
     position: absolute;
     width: 350px;
     height: 350px;
-    background-color: #51C3CA;
+    background-color: black;
     top: 54%;
     left: 15%;
     border-radius: 100%;
@@ -710,13 +711,10 @@ p{
 
 
 }
-.screen9circle h1{
-    color: gray;
-    font-size: 80px;
-}
+
 
 .screen9circle p{
-    color: gray;
+    color: white;
     text-align: center;
     width: 80%;
     font-size: 29px;
