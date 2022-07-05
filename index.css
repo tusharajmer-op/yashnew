@@ -33,7 +33,7 @@ p{
     font-size: 1rem;
 }
 .Screens{
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
 }
 .NavBar {
@@ -59,9 +59,10 @@ p{
 
 #Section1{
     background-color: rgba(0, 0, 0, 0.251);
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     position: relative;
+    overflow: hidden;
 }
 #Section1 img{
     position: absolute;
@@ -115,12 +116,13 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    padding-bottom: 3%;
 }
 .Card{
     border-radius: 3% / 7%;
     background-color: #1aa5bd;
     width: 60%;
-    height: 22rem;
+    height: auto;
     display: flex;
     flex-direction: row;
     position: relative;
@@ -201,6 +203,7 @@ p{
     flex-direction: column;
     width: 50rem;
     text-align: left;
+    
 }
 .S2content p{
     color: gray;
@@ -253,9 +256,12 @@ p{
 }
 .s3header{
     height: 20%;
+    margin-bottom: 5%;
+
 }
 .s3content{
     width: 30rem;
+
 }
 .s3content p{
     color: gray;
@@ -339,6 +345,7 @@ p{
     justify-content: space-around;
     align-items: center;
     background-color: #1aa5bd;
+    min-height: 100vh;
 }
 
 .s4Hero{
@@ -346,8 +353,9 @@ p{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 50%;
-    margin-top: -5%;
+    min-height: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 
 }
 .heroParent{
@@ -397,42 +405,46 @@ p{
 }
 .s5leftcontainer p{
     color: gray;
-    padding-right: 5%;
+    padding-right:2% 5% 1% 0%;
+
 }
 .s5leftcontainer{
     text-align: left;
     width: 90%;
+    margin: 3% 0%;
 
 }
 .s5rightcontainer{
     display: flex;
     flex-direction: row;
     width: 90%;
-
+    max-height: 60%;
+    margin-bottom: 3%;
     padding-right: 5%;
+    box-shadow: 0px 50px 80px 0px rgb(3 0 53 / 10%);
 
 }
 .sideimage{
     width: 30%;
-    height: 80%;
+    min-height: auto;
     background-color: gray;
     
 }
 .contentscreen5{
     display: flex;
     flex-direction: column;
-    height: 80%;
+    min-height: 60%;
     padding-left: 4%;
-    box-shadow: 0px 50px 80px 0px rgb(3 0 53 / 10%);
+    
 }
 .s5table{
     display: flex;
     flex-direction: column;
-    height: 80%;
+    min-height: auto;
     flex-wrap: wrap;
 }
 .s5parent{
-    min-height: 33%;
+    min-height: 30%;
     
 }
 .s5parent h4{
@@ -447,8 +459,10 @@ p{
 }
 .contentscreen5>h4, .contentscreen5>p{
      color: gray;
-     margin: 1% 0%; 
      overflow: hidden;
+}
+.contentscreen5>p{
+    margin: 3% 0%;
 }
 .screen6{
     display: flex;
@@ -456,10 +470,12 @@ p{
     justify-content: space-around;
     align-items: center;
     background-color: #dbe3e9;
+    min-height: 100vh;
 }
 .headings{
     position: relative;
     width: 50%;
+    margin-top: 3%;
 }
 .biggertext>h1 {
    
@@ -484,18 +500,19 @@ p{
 
 }
 .profile{
-    width: 60%;
-    height: 70%;
+    width: 80rem;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    position: relative;
+    margin: 5% 0%;
 }
 .cards6{
-    
-    position: relative;
-    width: 35%;
-    height: 100%;
+    background-color: aqua;
+    width: 27rem;
+    height: 35rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -504,9 +521,8 @@ p{
     
 }
 .images6{
-    position: relative;
     width: 100%;
-    height: 80%;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -578,7 +594,7 @@ p{
 }
 .s7img{
     position: relative;
-    height: 90%;
+    height: 10rem;
     width: 12%;
     display: flex;
     justify-content: center;
@@ -633,13 +649,15 @@ p{
     display: flex;
     flex-direction: row;
     width: 80%;
-    height: 80%;
     justify-content: center;
+    min-height: auto;
     align-items: center;
+    margin: 5% 0%;
 }
 .s8card{
+
     width: 30%;
-    height: 70%;
+    min-height: 25rem;
     background-color: rgba(0, 0, 0, 0.616);
     display: flex;
     flex-direction: column;
@@ -651,7 +669,8 @@ p{
 }
 .screen8 h1{
     color: white;
-    margin-top: 3%;
+    margin: 3% 0%;
+    height: auto;
 }
 .s8card p{
     width: 70%;
@@ -672,9 +691,8 @@ p{
     display: flex;
     flex-direction: column;
     width: 40vw;
-    height: 80vh;
-    margin-left: 12%;
-    margin-top: 5%;
+    min-height: 30rem;
+    margin-left: 12%
 
 }
 .s9leftcontainer h1{
@@ -689,7 +707,7 @@ p{
     position: absolute;
     overflow: visible;
     width: 45%;
-    height: 70%;
+    min-height: 30rem;
     top: 0%;
     right: 0%;
     
@@ -727,4 +745,84 @@ p{
     width: 5rem;
     height: 5rem;
 
+}
+@media screen and (max-width:500px) {
+    .notmobile{
+        display: none;
+    }
+    * {
+        font-family: Roboto, sans-serif;
+        box-sizing: border-box;
+        margin: 0px;
+        font-size: 1vh;
+        color: white;
+        overflow-x: hidden;
+    }
+    h1{
+        font-size: 4.5rem;
+        color: gray;
+    }
+    h2{
+        font-size: 6.1rem;
+    }
+    h5{
+        font-size: 3.17rem;
+        font-weight: 100;
+    }
+    h4{
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
+    h3{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    h6{
+        font-size: 3.26rem;
+        font-weight: 100;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .NavBar{
+        height: 7%;
+    }
+    .NavBar span,#appName{
+        font-size: 5rem;
+    }
+   
+    #Section1{
+        display: flex;
+        flex-direction: column;
+        justify-content:end;
+        align-items: center;
+        overflow: hidden;
+        background-image: url("./images/BackGround.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .content{
+        position: absolute;
+        background-color: red;
+        height: fit-content;
+        top: 0%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .Section1Banner{
+        margin-bottom: 3rem;
+        background-color: blue;
+        height: fit-content;
+        margin-bottom: 0%;
+    }
+    #MobileImage{
+        height: 16rem;
+        width: 13rem;
+    }
+    #Container1{
+        height: 16rem;
+        width: 35rem;
+    }
 }
