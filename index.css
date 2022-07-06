@@ -685,6 +685,7 @@ p{
     flex-direction: row;
     position: relative;
     background-color: #1aa5bd;
+    overflow: hidden;
 
 }
 .s9leftcontainer{
