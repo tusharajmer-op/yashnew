@@ -746,9 +746,12 @@ p{
     height: 5rem;
 
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:900px) {
     .notmobile{
         display: none;
+    }
+    .Screens{
+        margin: 5% 0%;
     }
     * {
         font-family: Roboto, sans-serif;
@@ -759,7 +762,7 @@ p{
         overflow-x: hidden;
     }
     h1{
-        font-size: 4.5rem;
+        font-size: 5.5rem;
         color: gray;
     }
     h2{
@@ -770,11 +773,11 @@ p{
         font-weight: 100;
     }
     h4{
-        font-size: 2.2rem;
+        font-size: 3.2rem;
         font-weight: 500;
     }
     h3{
-        font-size: 1rem;
+        font-size: 2.7rem;
         font-weight: 500;
     }
     h6{
@@ -782,7 +785,7 @@ p{
         font-weight: 100;
     }
     p{
-        font-size: 1rem;
+        font-size: 2.5rem;
     }
     .NavBar{
         height: 7%;
@@ -794,35 +797,315 @@ p{
     #Section1{
         display: flex;
         flex-direction: column;
-        justify-content:end;
+        justify-content:flex-end;
         align-items: center;
         overflow: hidden;
         background-image: url("./images/BackGround.png");
         background-repeat: no-repeat;
         background-size:cover;
+        min-height: 100vh;
     }
     .content{
-        position: absolute;
-        background-color: red;
-        height: fit-content;
+        position: relative;
         top: 0%;
+        right: 0%;
+        height: auto;
+        text-align: center;
         width: 100%;
         display: flex;
         justify-content: space-around;
+        margin-bottom: 15%;
+    
         
     }
     .Section1Banner{
-        margin-bottom: 3rem;
-        background-color: blue;
+        width: 100%;
         height: fit-content;
-        margin-bottom: 0%;
+        overflow: visible;
+    }
+    .Section1Banner h2{
+        font-size: 4rem;
+    }
+    .Section1Banner h5{
+        font-size: 2rem;
+    }
+    .Section1Banner h6{
+        font-size: 2.5rem;
+    }
+    .HeroImages{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
     }
     #MobileImage{
         height: 16rem;
         width: 13rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 7%;
+        
+        
     }
     #Container1{
+        position: relative;
+        width: 30rem;
         height: 16rem;
-        width: 35rem;
+    }
+    
+    .Card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: fit-content;
+        overflow: visible;
+        border-radius: 0%;
+        margin: 0% 0% 5% 0% ;
+    }
+    .image{
+        width: 100%;
+        height: 40rem;
+    }
+    .circleContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0%;
+    }
+    .innerItem{
+        width: 50%;
+        margin: 7% 0%;
+        display: flex;
+        flex-direction: column-reverse;
+
+        
+    
+
+    }
+    .circle{
+        height: 13rem;
+        width: 60%;
+    }
+    .circleDetails{
+        width: 80%;
+        text-align: center;
+        margin: 0%;
+    }
+    .circleDetails h4{
+        font-size: 5rem;
+        margin: 0%;
+    }
+    .circleDetails p{
+        font-size: 2.5rem;
+        line-height: 3rem;
+        margin: 5% 0%;
+        width: 100%;
+    }
+    .S2content{
+        width: 80%;
+        text-align: center;
+    }
+    .s3details{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagesection{
+        width: 100%;
+    }
+    #s3image{
+        height: 17rem;
+    }
+    .s3content {
+        width: 100%;
+        text-align: center;
+    }
+    .s3content p{
+        line-height: 3rem;
+    }
+    .s3content>h5{
+        font-size: 4.5rem;
+    }
+    .s3images , .innerImages, .pc{
+        width: 100%;
+    }
+    .graph{
+        width: 100%;
+        height: 15rem;
+    }
+    .graph p{
+        font-size: 2rem;
+    }
+    .parentcover{
+        justify-content: center;
+        align-items: center;
+    }
+    .s4Hero{
+        display: flex;
+        flex-direction: column;
+    }
+    .htext h3{
+        font-size: 2.6rem;
+    }
+    .himage{
+        width: 12%;
+    }
+    .htext>p{
+        font-size: 1.5rem;
+    }
+    .s5leftcontainer{
+        width: 100%;
+        text-align: center;
+    }
+    .s5rightcontainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 0%;
+        
+    }
+    .sideimage{
+        height: 40rem;
+        width: 80%;
+        margin: 5% 0%;
+    }
+    .contentscreen5{
+        padding: 0%;
+    }
+    .contentscreen5 >h4, .contentscreen5 >p{
+        text-align: center;
+    }
+    .s5table{
+        margin: 3% 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .s5parent{
+        height: auto;
+        margin-bottom: 10%;
+        width: 70%;
+    }
+    .s5parent h4{
+        font-size: 2.7rem;
+    }
+    .s5parent p{
+        width: 100%;
+    }
+    .profile{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .biggertext>h1{
+        font-size: 8rem;
+    }
+    .smallertext{
+
+        height: auto;
+        font-size: 3rem;
+    }
+    .cards6{
+        margin: 5% 0%;
+        width: 50%;
+    }
+    
+    .contents6 h4{
+        font-size: 1.8rem;
+        margin-bottom: 3%;
+        overflow: hidden;
+    
+    }
+    .contents6 h6{
+        font-size: 2rem;
+        height: auto;
+        overflow: hidden;
+    }
+    .contents6{
+        height: 15rem;
+        
+    }
+    .cards7{
+        display: flex;
+        flex-direction: column;
+        margin: 5% 0%;
+        
+    }
+    .s7img{
+        width:30%;
+        height: 10rem;
+        margin: 7% 0%;
+    }
+    .contents7{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .redlines{
+        width: 80%;
+        display: flex;
+        flex-direction: row;justify-content: center;
+        align-items: center;
+    }
+    .redlines div{
+        margin: 0% 3%;
+    
+    }
+    .s8cover{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .s8card{
+        width: 80%;
+        height: 40rem;
+        margin: 5% 0%;
+    }
+    .s8card p{
+        font-size: 2rem;
+    }
+    .screen9{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .s9leftcontainer{
+        margin:80% 0%;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .s9leftcontainer p{
+        width: 80%;
+        line-height: 3rem;
+    }
+    .s9rightcontainer{
+        height: auto;
+        width: 80%;
+    }
+    .screen9circle{
+        width: 40%;
+        height: 15rem;
+    }
+    .screen9circle p{
+        font-size: 1.5rem;
+    }
+    .screen9circle img{
+        height: 25%;
     }
 }
